@@ -8,6 +8,7 @@ rild.libargs=-d /dev/smd0
 # Fields For Custom RIL
 ro.telephony.ril_class=SamsungCDMAQualcommRIL
 ro.cdma.home.operator.numeric=310120
+ro.config.qc_lte_network_modes=true
 ro.cdma.home.operator.alpha=Sprint
 telephony.sms.pseudo_multipart=1
 persist.radio.snapshot_enabled=1
