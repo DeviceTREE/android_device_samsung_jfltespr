@@ -21,10 +21,8 @@
 # inherit from the proprietary version
 -include vendor/samsung/jfltespr/BoardConfigVendor.mk
 
-# Assert
+# assert
 TARGET_OTA_ASSERT_DEVICE := jfltespr
 
-# Kernel
-TARGET_KERNEL_CONFIG         := jf_spr_defconfig
-TARGET_KERNEL_VARIANT_CONFIG := cyanogen_jf_defconfig
-TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
+# kernel
+TARGET_KERNEL_CONFIG     := jf_spr_defconfig
